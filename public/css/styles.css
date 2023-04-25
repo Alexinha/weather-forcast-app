@@ -1,0 +1,42 @@
+html, body{
+    min-height: 100vh;
+}
+
+#title{
+    /* font-family: 'Orbitron', sans-serif; */
+    font-family: 'Space Mono', monospace;
+    color: #3A98B9;
+    position: absolute;
+    top: 30%;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#cityInput{
+    position: absolute;
+    width: 500px;
+    height: 45px;
+    bottom: 50%;
+    background-color: white;
+    border: solid 2px #B0DAFF;
+}
+
+button{
+    position: absolute;
+    bottom: 40%;
+}
+
+.card{
+    margin: 5% 0;
+    max-height: 90%vh;
+    text-align: center;
+}
+.card-img-top{
+    height: 200px;
+}
+
